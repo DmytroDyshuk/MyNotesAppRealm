@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <ru.rambler.libs.swipe_layout.SwipeLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:right_swipe_enabled="true"
+        app:left_swipe_enabled="false">
+
+            <LinearLayout
+                android:id="@+id/llNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape_white_corners_background">
+
+                <ImageView
+                    android:id="@+id/ivColorLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/colorPink"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Shortflim Script"
+                        android:fontFamily="@font/futura"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp"
+                        android:maxLines="1"/>
+
+                    <TextView
+                        android:id="@+id/tvNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:fontFamily="@font/futura_condeced"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textColor="@color/colorPink"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="@font/futura"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDelete"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:bring_to_clamp="40dp"
+            app:clamp="self"
+            app:sticky="none"
+            app:gravity="right">
+
+            <TextView
+                android:id="@+id/tvDelete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPink"
+                android:text="Delete"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+    </ru.rambler.libs.swipe_layout.SwipeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
