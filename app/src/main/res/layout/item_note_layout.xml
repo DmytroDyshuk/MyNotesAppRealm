@@ -38,7 +38,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Shortflim Script"
-                        android:fontFamily="@font/futura"
                         android:textColor="@color/colorBlack"
                         android:textSize="18sp"
                         android:maxLines="1"/>
@@ -48,7 +47,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1"
-                        android:fontFamily="@font/futura_condeced"
                         android:textStyle="bold"
                         android:textSize="22sp"
                         android:textColor="@color/colorPink"/>
@@ -60,7 +58,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
-                    android:fontFamily="@font/futura"
                     android:textSize="12sp"
                     android:lineSpacingExtra="4dp"
                     android:layout_marginStart="10dp"

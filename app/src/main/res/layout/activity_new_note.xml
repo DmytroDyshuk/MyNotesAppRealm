@@ -31,7 +31,6 @@
             android:layout_weight="1"
             android:background="@null"
             android:hint="Note name"
-            android:fontFamily="@font/futura_medium_condensed"
             android:textColorHint="@color/colorBlack"
             android:textSize="24sp"/>
 
@@ -56,7 +55,6 @@
             android:background="@null"
             android:inputType="textMultiLine"
             android:gravity="top"
-            android:fontFamily="@font/futura_medium_condensed"
             android:layout_marginTop="18dp"
             android:layout_marginStart="18dp"
             android:layout_marginEnd="18dp"
